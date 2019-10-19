@@ -6,9 +6,9 @@ w = (λI + ΦTΦ)⁻¹ * ΦT.t
 ti_hat = WT*φ(xi)
 
 MSE = 1/N ∑(ti − ti_hat)² 
-![Image 1]("complexity_vs_err.JPG")
+![Image 1](complexity_vs_err.JPG)
 
-![Image 1]("lambda.JPG")
+![Image 1](/lambda.JPG)
 The training set error is the lower bound and is always increasing. It has no minima.
 The effect of λ: In the above figure it can be seen that when no regularization parameter is used or the parameter is small it overfits the data.
 
